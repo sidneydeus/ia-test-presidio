@@ -1,0 +1,18 @@
+{
+  "name": "ia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js app with Presidio services",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test:presidio": "node scripts/test-presidio.js"
+  },
+  "dependencies": {
+    "axios": "^1.12.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
